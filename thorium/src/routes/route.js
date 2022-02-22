@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/students/:name', function(req, res) {
-    let studentName = req.params.name
-    console.log(studentName)
-    res.send(studentName)
-})
+
+//1)Define an array of movies
+router.get('/movies',function (req, res) {
+    res.send('["Don","Dhoom","Radhe","Sooryavanshi"]')
+});
 
 
 
