@@ -8,7 +8,7 @@ const lodash = require('lodash')
 
 
 router.get('/test-me', function (req, res) {
-    let names = [ 'Hariom', 'Arpit', 'Akash', 'Sabiha']
+    let names = [ 'Ranjan', 'Subham', 'Akash', 'Ratul']
     //Module 1 members
     logger.printMessage('thorium')
     console.log(logger.url)
